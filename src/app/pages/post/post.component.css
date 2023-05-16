@@ -1,0 +1,29 @@
+.post_container  {
+
+  width: 100%;
+  height: 100vh;
+
+  margin-top: 20px;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.post_cover > img {
+  width: 500px;
+  min-width: 500px;
+  height: 300px;
+
+  border-radius: 10px;
+}
+
+.post_resume {
+    margin-top: 15px;
+}
+
+.post_resume > p{
+    color: #666666;
+    margin-top: 20px;
+}
